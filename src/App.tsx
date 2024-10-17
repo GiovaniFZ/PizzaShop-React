@@ -1,6 +1,11 @@
+import { Button } from './components/ui/button'
+import './global.css'
+
 export function App() {
 
   return (
-    <h1>Hello</h1>
+    <div>
+      <Button>Enviar</Button>
+    </div>
   )
 }
