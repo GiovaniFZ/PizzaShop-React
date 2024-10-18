@@ -1,11 +1,9 @@
-import { Button } from './components/ui/button'
 import './global.css'
 
-export function App() {
+import { RouterProvider } from 'react-router-dom'
 
-  return (
-    <div>
-      <Button>Enviar</Button>
-    </div>
-  )
+import { router } from './routes'
+
+export function App() {
+  return <RouterProvider router={router} />
 }
